@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_formulario.css">
+    <title>Formulario de Contacto Estilizado</title>
+</head>
+<body>
+    <h1>Formulario de Contacto Estilizado</h1>
+    <form class="formulario_contenedor" action="procesar.php" method="post">
+        <label class="nombre_label" for="name">Nombre:</label>
+        <input class="nombre_input" type="name" id="name" placeholder="Ingrese su nombre">
+        
+        <label class="email_label" for="email">Correo Electronico:</label>
+        <input class="email_input" type="email" id="email" placeholder="Ingrese su email">
+        
+        <label for="mensajes">Mensaje:</label>
+        <textarea name="mensaje" id="mensajes" cols="30" rows="4"></textarea>
+        
+        <button name="submit" id="button_submit">Enviar</button>
+    </form>
+</body>
+</html>

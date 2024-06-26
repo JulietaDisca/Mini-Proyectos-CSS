@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Título{
+    text-align: center;
+    margin: 20px;
+    color: rgb(144, 23, 148);
+}
+
+nav{
+    background: rgb(247, 205, 212);
+    margin: auto;
+    padding: 10px;
+    border: 2px solid rgb(144, 23, 148);
+}
+
+ul{
+    list-style: none; /*Sacar los puntitos de lista*/
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 0.4em;
+    margin: 0 20px; 
+} 
+
+a{
+    color: rgb(197, 48, 202);
+    font-weight: lighter;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+a:hover{
+    background: rgb(144, 23, 148);
+    border-radius: 1em;
+    color: pink;
+    transition: 0.7s;
+}

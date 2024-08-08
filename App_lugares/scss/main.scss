@@ -273,6 +273,7 @@ img{
 
         p{
             border: 1px solid $medium-color;
+            padding: 3px;
         }
 
         img{
@@ -379,3 +380,5 @@ img{
         }
     }
 }
+
+@import 'media';

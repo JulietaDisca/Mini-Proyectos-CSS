@@ -72,7 +72,7 @@ input[class^='btn-']:hover{
 }
 
 /*  Margin EXTERNOS generales(margin')  */
-.py{
+.my{
     &-1{
         margin: 1rem 0;
     }
@@ -87,6 +87,29 @@ input[class^='btn-']:hover{
 
     &-4{
         margin: 4rem 0;
+    }
+}
+
+/*Backgrounds*/
+.bg{
+    &-main{
+        background: $main-color;
+        color: set-text-color($main-color);
+    }
+
+    &-dark{
+        background: $dark-color;
+        color: set-text-color($dark-color);
+    }
+
+    &-light{
+        background: $light-color;
+        color: set-text-color($light-color);
+    }
+
+    &-medium{
+        background: $medium-color;
+        color: set-text-color($medium-color);
     }
 }
 
@@ -105,6 +128,5 @@ input[class^='btn-']:hover{
     background: $main-color;
     display: block;
     margin: 0 auto 1rem auto;
-    
-
 }
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Places App</title>
+</head>
+<body>
+    <!--  Header  -->
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="Places App" id="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="places.html">Places</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Sections-->
+    <!--Section A-->
+    <section id="contact-a" class="text-center py-3">
+        <div class="container">
+            <div class="section-title">Contact me</div>
+            <div class="bottom-line"></div>
+            <p class="lead">This is how you can contact me</p>
+
+            <form action="POST">
+                <div class="text-fields">
+                    <input type="text" class="text-input name-input" placeholder="Name" name="name" required>
+
+                    <input type="text" class="text-input subject-input" placeholder="Subject" name="subject">
+
+                    <input type="text" class="text-input email-input" placeholder="Email" name="email" required>
+
+                    <input type="text" class="text-input phone-input" placeholder="Phone Number" name="phone" required>
+
+                    <textarea name="message" class="text-input message-input"></textarea>
+
+                    <button type="submit" class="btn-dark">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--  Section B -->
+    <section id="contact-b" class="py-3 bg-dark">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <i class='bx bx-envelope' ></i>
+                    <h3>Email</h3>
+                    <p>contact@places.com</p>
+                </div>
+
+                <div>
+                    <i class='bx bx-phone' ></i>
+                    <h3>Phone</h3>
+                    <p>(57) 6008955412</p>
+                </div>
+
+                <div>
+                    <i class='bx bx-id-card' ></i>
+                    <h3>Addres</h3>
+                    <p>Calle 24 # 13-89 Pereira-Argentina</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section C -->
+     <section id="contact-c" class="bg-main py-4">
+        <div class="container">
+            <h1>Start with your next Trip</h1>
+        </div>
+     </section>
+
+    <!--  Footer  -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2024. All Rights Reserved</p>
+            <div class="social">
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-linkedin' ></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
